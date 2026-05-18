@@ -232,3 +232,4 @@ tsingy_rouge/
 ---
 
 *Tsingy Rouge Madagascar · v1.0.0 · PHP natif + MySQL + Bootstrap 5*
+"# tsingy_rouge_Mada" 
