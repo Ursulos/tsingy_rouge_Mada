@@ -100,10 +100,9 @@ http://localhost/tsingy_rouge/index.php?page=login
 
 | Champ    | Valeur              |
 |----------|---------------------|
-| Email    | admin@tsingy-rouge.mg |
-| Mot de passe | Admin@2026    |
+| Email    |  |
+| Mot de passe |    |
 
-> ⚠️ Changez le mot de passe immédiatement après la première connexion !
 
 Pour générer un nouveau hash :
 ```php
