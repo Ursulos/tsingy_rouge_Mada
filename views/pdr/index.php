@@ -346,7 +346,7 @@ include __DIR__ . '/../layouts/sidebar.php';
               <div class="col-md-4">
                 <label class="form-label">Date fin *</label>
                 <input type="date" name="date_fin" id="pdrDateFin"
-                  class="form-control" value="<?= date('Y-m-t') ?>" required>
+                  class="form-control" class="date-passee-only" value="<?= date('Y-m-t') ?>" required>
               </div>
 
               <div class="col-md-4">

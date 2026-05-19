@@ -100,10 +100,15 @@ window.formatNumber = (v) =>
 })();
 
 // ---- Pré-remplissage date max = aujourd'hui ----
-document.querySelectorAll('input[type="date"]').forEach(inp => {
-  if (!inp.getAttribute('max')) inp.max = new Date().toISOString().split('T')[0];
-});
-
+// document.querySelectorAll('input[type="date"]').forEach(inp => {
+//   if (!inp.getAttribute('max')) inp.max = new Date().toISOString().split('T')[0];
+// });
+// Execption pour les champs pdr
+// document.querySelectorAll('.date-passee-only').forEach(inp => {
+//   if (!inp.getAttribute('max')) {
+//     inp.max = new Date().toISOString().split('T')[0];
+//   }
+// });
 // ---- Sidebar overlay style ----
 (function injectOverlayStyle() {
   const style = document.createElement('style');
